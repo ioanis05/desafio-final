@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*----"font-family: 'Montserrat', sans-serif;"----------------------*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*começa a header*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    /*border: solid rebeccapurple;*/
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+}
+header h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-weight: 700;
+    margin: 1rem;
+}
+nav{
+    margin-right: 1rem;
+    /*border: solid red;*/
+    width: 40%;
+}
+header ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+    .LiOpaca{
+        color: rgba(140, 132, 137, 0.8);
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.2rem;
+
+    }
+:hover.LiOpaca{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 1.2rem;
+    color: black;
+}
+
+/*acaba a header*/
+
+/*começa as section */
+
+.ConteinerLaraja{
+    width: 100%;
+    height:  80vh;
+    /*border: solid red;*/
+    display: flex;
+    background-image: url(imagens/laranja\ azul\ recorte.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    align-items: center;
+}   
+.ConteinerDivTextoDaLaraja{
+    width: 70%;
+    height: 25vh;
+    /*border: solid red;*/
+    align-items: center;
+    margin-left: 3rem;
+    margin-top: 10rem;
+    text-align: justify;
+}
+.ConteinerDivTextoDaLaraja h1{
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 3.4rem;
+}
+.ConteinerDivTextoDaLaraja p{
+    padding-top: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 100;
+    text-transform: uppercase;
+} 
+.ConteinerImagen{
+    border: solid red;
+    margin-top: 4rem;
+    margin-left: 12rem;
+    width: 75%;
+    height: 153vh;
+    flex-wrap: wrap;
+
+}
+.TamanhoImgMeio{
+    width: auto;
+    height: 40vh;
+    padding: 5px;
+}
+/* acaba a section*/
+
+/*começa o footer*/
+
+footer{
+    margin-top: 4rem;
+    background-color: rgba(140, 132, 137, 0.2);
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+footer ul{
+    align-items: center;
+    display: flex;
+    list-style: none;
+}
+footer li{
+    padding-left: 1rem;
+}
+footer nav{
+    align-items: center;
+}
+.TamanhoImgFooter{
+    width: 1.8vw;
+}
+.TamanhoImgFooterface{
+    width: 0.8vw;
+}
