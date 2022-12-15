@@ -10,12 +10,15 @@
 /*começa a header*/
 
 header{
+    position: fixed;
     display: flex;
     justify-content: space-between;
     /*border: solid rebeccapurple;*/
     align-items: center;
     width: 100%;
     height: 10vh;
+    background-color: #ffffff;
+    z-index: 3;
 }
 header h1{
     font-family: 'Montserrat', sans-serif;
@@ -44,6 +47,9 @@ header ul{
     font-weight: 900;
     font-size: 1.2rem;
     color: black;
+}
+#ButtonMenu{
+    display: none;
 }
 
 /*acaba a header*/
@@ -83,7 +89,7 @@ header ul{
     text-transform: uppercase;
 } 
 .ConteinerImagen{
-    border: solid red;
+    /*border: solid red;*/
     margin-top: 4rem;
     margin-left: 12rem;
     width: 75%;
@@ -95,6 +101,13 @@ header ul{
     width: auto;
     height: 40vh;
     padding: 5px;
+}
+
+.ConteinerDivTextoDaLaraja a{
+    text-decoration: none;
+}
+.ConteinerDivTextoDaLaraja a :hover{
+    text-decoration: underline;
 }
 /* acaba a section*/
 
@@ -109,6 +122,21 @@ footer{
     justify-content: space-evenly;
     align-items: center;
 }
+
+.titulofooter{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding-right: 2rem;
+    
+}
+
+
+.textfooter{
+    text-transform: capitalize;
+    margin-left: 3rem;
+}
+
 footer ul{
     align-items: center;
     display: flex;
@@ -125,4 +153,7 @@ footer nav{
 }
 .TamanhoImgFooterface{
     width: 0.8vw;
+}
+footer button{
+    display: none;
 }
